@@ -1,1 +1,5 @@
 Hystrix provides fault and latency tolerance.
+
+Hystrix isolates the points of access between the services.
+
+It stops cascading failures across them and provides the fallback options.
