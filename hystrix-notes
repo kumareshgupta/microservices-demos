@@ -1,5 +1,17 @@
+Introduction:-
+--------------------------
+Hystrix is used to implement Circuit Breaker Pattern.
+
 Hystrix provides fault and latency tolerance.
 
 Hystrix isolates the points of access between the services.
 
 It stops cascading failures across them and provides the fallback options.
+
+Annotaion used :-
+---------------------------
+@EnableHystrix - is used to enable hystrix functionalites in Spring Boot application
+@EnableHystrixDashboard - Optional feature of hystrix to monitor its status on a dashboard
+@EnableCircuitBreaker
+@HystrixCommand
+@HystrixProperty
