@@ -1,0 +1,5 @@
+Tokens offer a wide variety of applications, including: Cross Site Request Forgery (CSRF) protection schemes, OAuth 2.0 interactions, session IDs, and (in cookies) as authentication representations
+
+JWTs - JSON Web Tokens - pronounced as "jots"
+
+JJWT from Stormpath
