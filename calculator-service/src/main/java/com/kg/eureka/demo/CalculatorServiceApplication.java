@@ -21,6 +21,11 @@ public class CalculatorServiceApplication {
 	public int sum(@PathVariable("num1") int num1, @PathVariable("num2") int num2) {
 		return num1 + num2;
 	}
+
+	@RequestMapping("/sub/{num1}/{num2}")
+	public int sum(@PathVariable("num1") int num1, @PathVariable("num2") int num2) {
+		return num1 - num2;
+	}
 	
 	@RequestMapping(value="/")
 	public String home() {
